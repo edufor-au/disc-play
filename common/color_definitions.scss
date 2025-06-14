@@ -5,3 +5,7 @@ $simple-theme-visited-link-color: dark-light-choose(#64a, #9787b6);
   --simple-theme-link-color: #{$simple-theme-link-color};
   --simple-theme-visited-link-color: #{$simple-theme-visited-link-color};
 }
+
+body:not([class*='category-']) #create-topic {
+    display: none;
+}
